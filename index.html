@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Chatapp</title>
+	<link rel ="stylesheet" href ='index.css'>
+	<script defer src ="http://localhost:3000/socket.io/socket.io.js">
+   </script>
+   <script defer src ="script.js">
+   </script>
+	<style>
+		body{
+			padding: 0;
+			margin:0;
+			display: flex;
+			justify-content: center
+		}
+		#message-container{
+               width:80%;
+               max-width: 1200px;
+
+		}
+		#send-container{
+			  width:200%;
+               max-width: 4000px;
+              
+
+		}
+	</style>
+
+</head>
+<body>
+	<div id = "message-container"> <div>
+		<div class ="centerlarge" >
+		<form id ="send-container">
+			<input type ="text" id ="message-input" width="">
+			<button type ="submit" id = "send-button" width ="3455px"> Send </button>
+           </form>
+           <div>
+</body>
+</html>
+
